@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet' />
+
+        <style type="text/css">
+            #map { height: 600px; width: 100%; }
+        </style>
+    </head>
+    <body>
+        <h1>Klettersteige Schweiz</h1>
+
+        <div id='map'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuaWxvIiwiYSI6IkM2cVZZdkkifQ.KK_4WqiWBL_DhpjIfGPcLw';
+            const switzerland = new mapboxgl.LngLatBounds(
+                [4.192922617496919, 45.59387757448522],
+                [12.800734222580246, 47.94079863360034]
+            );
+            const map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/danilo/citrnqoyx000h2jmg5qenf8ep',
+                maxBounds: switzerland,
+            });
+
+            map.on('load', () => {
+
+                map.addSource('klettersteige', {
+                    'type': 'geojson',
+                    'data': 'klettersteige.geojson',
+                });
+
+                map.addLayer({
+                    'id': 'klettersteige',
+                    'type': 'symbol',
+                    'source': 'klettersteige',
+                    'layout': {
+                        'icon-image': '{icon}-15',
+                        'text-field': '{title}',
+                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                        'text-offset': [0, 0.6],
+                        'text-anchor': 'top'
+                    }
+                });
+
+                map.on('click', function (e) {
+                    const features = map.queryRenderedFeatures(e.point, {
+                        layers: ['klettersteige']
+                    });
+                    if (!features.length) {
+                        return;
+                    }
+
+                    const feature = features[0];
+                    const p = feature.properties;
+
+                    let description = '<h3>' + p.title + '</h3>';
+                    description += '<p>' + p.description + '</p><br>';
+                    description += '<strong>Schwierigkeit</strong><p>' + p.difficulty + '</p>';
+
+                    // Populate the popup and set its coordinates
+                    // based on the feature found.
+                    const popup = new mapboxgl.Popup()
+                        .setLngLat(feature.geometry.coordinates)
+                        .setHTML(description)
+                        .addTo(map);
+                });
+
+                map.on('mousemove', function (e) {
+                    const features = map.queryRenderedFeatures(e.point, {
+                        layers: ['klettersteige']
+                    });
+                    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+                });
+
+            });
+        </script>
+
+    </body>
+</html>

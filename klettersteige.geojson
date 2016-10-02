@@ -1,0 +1,64 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.983689, 46.960300]
+            },
+            "properties": {
+                "title": "Braunwald",
+                "description": "",
+                "difficulty": "K3 / K3 / K5",
+                "url": "http://www.braunwald.ch/de/erlebnisse/sommer/sport/klettergarten/klettersteige",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.660347, 46.489266]
+            },
+            "properties": {
+                "title": "Allmenalp",
+                "difficulty": "K4, auf ein paar Metern K4-K5",
+                "url": "http://www.myswitzerland.com/de-ch/home/erlebnisse/abenteuer-und-sport-sommer/klettersteige-in-der-schweiz/klettersteig-kandersteg-allmenalp.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.580024, 46.430553]
+            },
+            "properties": {
+                "title": "Chäligang",
+                "difficulty": "K2",
+                "up": "560m (300m)",
+                "down": "",
+                "duration": "3h (20min bis zum Einstieg)",
+                "url": "http://www.engstligenalp.ch/de/klettersteig",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.093481, 46.428023]
+            },
+            "properties": {
+                "title": "Eggishorn",
+                "difficulty": "K2-K3",
+                "up": "300m",
+                "down": "300m",
+                "duration": "2-3h",
+                "url": "http://www.engstligenalp.ch/de/klettersteig",
+                "icon": "marker"
+            }
+        }
+    ]
+}
