@@ -14,11 +14,18 @@
             th {
                 text-align: left;
             }
+            #header {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            #header h1 {
+                flex-grow: 1;
+            }
             #wrapper {
                 display: flex;
                 flex-direction: row;
-            }
-            #table {
             }
             #map {
                 height: 600px;
@@ -30,7 +37,10 @@
         </style>
     </head>
     <body>
-        <h1>Klettersteige Schweiz</h1>
+        <div id="header">
+            <h1>Klettersteige Schweiz</h1>
+            <p id="links">Links: <a href="https://de.wikipedia.org/wiki/Schwierigkeitsskala_(Klettern)#Klettersteige">Schwierigkeitsskala</a></p>
+        </div>
 
         <div id="wrapper">
             <div id="table"></div>
