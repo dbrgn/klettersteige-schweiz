@@ -182,7 +182,7 @@
             },
             "properties": {
                 "title": "Sulzfluh",
-                "difficulty": "Schwer",
+                "difficulty": "K3-4",
                 "up": "1627m",
                 "down": "1627m",
                 "duration": "5.5h",
@@ -613,6 +613,23 @@
                 "duration": "3h 30min",
                 "distance": "5.5km",
                 "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-C",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.728063, 46.959381]
+            },
+            "properties": {
+                "title": "Tichodrome",
+                "difficulty": "K1-2",
+                "up": "150m",
+                "down": "150m",
+                "duration": "2h",
+                "distance": "",
+                "url": "http://www.neuchateltourisme.ch/de/aktiv/fun-co/via-ferrata-tichodrome-noiraigue.1098.html",
                 "icon": "marker"
             }
         }
