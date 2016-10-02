@@ -5,13 +5,30 @@
         <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
         <style type="text/css">
-            #map { height: 600px; width: 100%; }
+            html {
+                font-family: sans-serif;
+                font-size: 0.8em;
+            }
+            th {
+                text-align: left;
+            }
+            #wrapper {
+                display: flex;
+                flex-direction: row;
+            }
+            #table {
+            }
+            #map { min-height: 500px; width: 100%; }
         </style>
     </head>
     <body>
         <h1>Klettersteige Schweiz</h1>
 
-        <div id='map'></div>
+        <div id="wrapper">
+            <div id="table"></div>
+            <div id="map"></div>
+        </div>
+
         <script>
             const map = L.map('map').setView([46.76733810404278, 8.496828420038582], 8);
 
@@ -25,9 +42,46 @@
             function getDescription(feature) {
                 const p = feature.properties;
                 let description = '<h3>' + p.title + '</h3>';
+                description += '<a href="' + p.url + '">Link</a>';
                 description += '<p>' + p.description + '</p><br>';
                 description += '<strong>Schwierigkeit</strong><p>' + p.difficulty + '</p>';
                 return description;
+            };
+
+            function updateTable(data) {
+                const table = document.createElement('table');
+                const tr = table.insertRow();
+                const thName = document.createElement('th');
+                    thName.appendChild(document.createTextNode('Name'));
+                    tr.appendChild(thName);
+                const thDifficulty = document.createElement('th');
+                    thDifficulty.appendChild(document.createTextNode('Schwierigkeit'));
+                    tr.appendChild(thDifficulty);
+                const thDuration = document.createElement('th');
+                    thDuration.appendChild(document.createTextNode('Dauer'));
+                    tr.appendChild(thDuration);
+                for (let feature of data.features) {
+                    const p = feature.properties;
+                    const tr = table.insertRow();
+                    const name = tr.insertCell();
+                        const link = document.createElement('a');
+                        link.href = p.url;
+                        link.appendChild(document.createTextNode(p.title));
+                        name.appendChild(link);
+                    const difficulty = tr.insertCell();
+                        difficulty.appendChild(document.createTextNode(p.difficulty));
+                    const duration = tr.insertCell();
+                        duration.appendChild(document.createTextNode(p.duration));
+                }
+                document.getElementById('table').appendChild(table);
+            };
+
+            function updateMap(data) {
+                L.geoJSON(data, {
+                    onEachFeature: (feature, layer) => {
+                        layer.bindPopup(getDescription(feature));
+                    }
+                }).addTo(map);
             };
 
             // Add POIs
@@ -36,11 +90,8 @@
             request.onload = function() {
                 if (this.status == 200) {
                     const data = JSON.parse(this.response);
-                    L.geoJSON(data, {
-                        onEachFeature: (feature, layer) => {
-                            layer.bindPopup(getDescription(feature));
-                        }
-                    }).addTo(map);
+                    updateTable(data);
+                    updateMap(data);
                 } else {
                     console.error('HTTP ' + this.status + ' when fetching GeoJSON layer');
                 }

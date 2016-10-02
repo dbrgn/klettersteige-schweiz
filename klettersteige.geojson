@@ -23,7 +23,7 @@
             },
             "properties": {
                 "title": "Allmenalp",
-                "difficulty": "K4, auf ein paar Metern K4-K5",
+                "difficulty": "K4-5",
                 "url": "http://www.myswitzerland.com/de-ch/home/erlebnisse/abenteuer-und-sport-sommer/klettersteige-in-der-schweiz/klettersteig-kandersteg-allmenalp.html",
                 "icon": "marker"
             }
@@ -57,6 +57,562 @@
                 "down": "300m",
                 "duration": "2-3h",
                 "url": "http://www.engstligenalp.ch/de/klettersteig",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.463354, 46.799112]
+            },
+            "properties": {
+                "title": "Fürenwand",
+                "difficulty": "K4",
+                "up": "750m",
+                "down": "750m",
+                "duration": "4h",
+                "url": "http://www.myswitzerland.com/de-ch/n13042/n13043/n13044/fuerenwand-die-meisterpruefung-gegenueber-dem-titlis.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.075673, 46.184988]
+            },
+            "properties": {
+                "title": "Gabi Simplon",
+                "difficulty": "K4",
+                "up": "250m",
+                "down": "250m",
+                "duration": "2.5h",
+                "url": "http://www.simplon.ch/de/sommer/klettern/klettersteig",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.614601, 46.397353]
+            },
+            "properties": {
+                "title": "Gemmiwand",
+                "difficulty": "K4-5",
+                "up": "35m",
+                "down": "35m",
+                "duration": "1.5h",
+                "url": "http://www.gemmi.ch/sommer/klettersteig-gemmiwand/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.603438, 46.388511]
+            },
+            "properties": {
+                "title": "Gemmi-Daubenhorn (Gross)",
+                "difficulty": "K5-6",
+                "up": "1000m",
+                "down": "700m",
+                "duration": "8h",
+                "url": "http://gemmi.ch/highlights/highlights-sommer/klettersteig-daubenhorn/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.613747, 46.386387]
+            },
+            "properties": {
+                "title": "Gemmi-Daubenhorn (Klein)",
+                "difficulty": "K5-6",
+                "up": "350m",
+                "down": "800mm",
+                "duration": "5h",
+                "url": "http://gemmi.ch/highlights/highlights-sommer/klettersteig-daubenhorn/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.311824, 46.841600]
+            },
+            "properties": {
+                "title": "Pinut",
+                "difficulty": "Einfach",
+                "up": "880m",
+                "down": "518m",
+                "duration": "3.5h",
+                "distance": "5km",
+                "url": "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-pinut/13694192/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.635763, 46.610409]
+            },
+            "properties": {
+                "title": "Senda Ferrada",
+                "difficulty": "Schwer",
+                "up": "900m",
+                "down": "878m",
+                "duration": "5h",
+                "distance": "4.1km",
+                "url": "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-senda-ferrada-piz-mitgel/17573578/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.849153, 46.989138]
+            },
+            "properties": {
+                "title": "Sulzfluh",
+                "difficulty": "Schwer",
+                "up": "1627m",
+                "down": "1627m",
+                "duration": "5.5h",
+                "distance": "10.9km",
+                "url": "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-sulzfluh-raetikon-2790-m/9408873/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.894168, 46.556154]
+            },
+            "properties": {
+                "title": "Mürren Gimmelwald",
+                "difficulty": "K3",
+                "up": "0m",
+                "down": "300m",
+                "duration": "3h",
+                "distance": "2.2km",
+                "url": "http://www.klettersteig-muerren.ch/index.php/de/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.917545, 46.483801]
+            },
+            "properties": {
+                "title": "La Resgia",
+                "difficulty": "K3-4",
+                "up": "",
+                "down": "",
+                "duration": "",
+                "distance": "",
+                "url": "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.970805, 46.406905]
+            },
+            "properties": {
+                "title": "Piz Trovat I",
+                "difficulty": "K2-3",
+                "up": "300m",
+                "down": "",
+                "duration": "",
+                "distance": "",
+                "url": "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.970307, 46.406258]
+            },
+            "properties": {
+                "title": "Piz Trovat II",
+                "difficulty": "K5-6",
+                "up": "300m",
+                "down": "",
+                "duration": "",
+                "distance": "",
+                "url": "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.207500, 46.460899]
+            },
+            "properties": {
+                "title": "La Videmanette 1",
+                "difficulty": "K1-2",
+                "up": "190m",
+                "down": "190m",
+                "duration": "2h",
+                "distance": "1.3km",
+                "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.207910, 46.461080]
+            },
+            "properties": {
+                "title": "La Videmanette 2",
+                "difficulty": "K2-3",
+                "up": "190m",
+                "down": "190m",
+                "duration": "2h",
+                "distance": "1.3km",
+                "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.208392, 46.461219]
+            },
+            "properties": {
+                "title": "La Videmanette 3",
+                "difficulty": "K4-5",
+                "up": "190m",
+                "down": "190m",
+                "duration": "2h 15min",
+                "distance": "1.3km",
+                "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.214116, 46.339870]
+            },
+            "properties": {
+                "title": "La Tête de Chamois",
+                "difficulty": "K5",
+                "up": "240m",
+                "down": "240m",
+                "duration": "3h",
+                "distance": "0.8km",
+                "url": "http://www.myswitzerland.com/de-ch/tete-aux-chamois-adrenalin-pur.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.207427, 46.354538]
+            },
+            "properties": {
+                "title": "De La Cascade",
+                "difficulty": "K4",
+                "up": "50m",
+                "down": "66m",
+                "duration": "2h 40min",
+                "distance": "400m",
+                "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.970339, 46.151522]
+            },
+            "properties": {
+                "title": "Jägihorn",
+                "difficulty": "K3",
+                "up": "800m",
+                "down": "800m",
+                "duration": "7-8h",
+                "distance": "",
+                "url": "http://www.klettersteig.ch/jaegihorm.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.937634, 46.084408]
+            },
+            "properties": {
+                "title": "Mittaghorn",
+                "difficulty": "K2-3",
+                "up": "570m",
+                "down": "570m",
+                "duration": "5-6h",
+                "distance": "",
+                "url": "http://www.klettersteig.ch/mittaghorn.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.927775, 46.105444]
+            },
+            "properties": {
+                "title": "Saas-Grund",
+                "difficulty": "K3",
+                "up": "150m",
+                "down": "150m",
+                "duration": "1h",
+                "distance": "",
+                "url": "http://www.klettersteig.ch/miniklettersteig.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.861595, 46.344713]
+            },
+            "properties": {
+                "title": "Baltschiedertal-Wiwanni",
+                "difficulty": "K3-4",
+                "up": "1300m",
+                "down": "1300m",
+                "duration": "",
+                "distance": "7-8h",
+                "url": "http://www.klettersteig.ch/baltschiedertal.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.029315, 46.081569]
+            },
+            "properties": {
+                "title": "Via Ferrata del Lago",
+                "difficulty": "K2-3",
+                "up": "",
+                "down": "",
+                "duration": "2 Tage",
+                "distance": "",
+                "url": "http://www.klettersteig.ch/viaferrata.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.328126, 46.740063]
+            },
+            "properties": {
+                "title": "Tälli Grindelwald",
+                "difficulty": "K3-4",
+                "up": "1400m",
+                "down": "1400m",
+                "duration": "5-7h",
+                "distance": "",
+                "url": "http://www.grimselwelt.ch/ausflugstipps/klettersteig-taelli",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.413877, 46.701948]
+            },
+            "properties": {
+                "title": "Tierbergli",
+                "difficulty": "K3-4",
+                "up": "700m",
+                "down": "700m",
+                "duration": "4h",
+                "distance": "4.2km",
+                "url": "http://www.grimselwelt.ch/ausflugstipps/klettersteig-tierbergli",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.413068, 46.841861]
+            },
+            "properties": {
+                "title": "Brunnistöckli",
+                "difficulty": "K2",
+                "up": "",
+                "down": "",
+                "duration": "1h 20min",
+                "distance": "",
+                "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/brunnistoeckli/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.413365, 46.841360]
+            },
+            "properties": {
+                "title": "Zittergrat",
+                "difficulty": "K4",
+                "up": "",
+                "down": "",
+                "duration": "1h",
+                "distance": "",
+                "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/zittergrat/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.418751, 46.851903]
+            },
+            "properties": {
+                "title": "Rigidalstockwand",
+                "difficulty": "K3-4",
+                "up": "730m",
+                "down": "730m",
+                "duration": "4-5h",
+                "distance": "",
+                "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/rigidalstock/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.419560, 46.851799]
+            },
+            "properties": {
+                "title": "Rigidalstockgrat",
+                "difficulty": "K3",
+                "up": "730m",
+                "down": "730m",
+                "duration": "4-5h",
+                "distance": "",
+                "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/rigidalstock/",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.000547, 46.371432]
+            },
+            "properties": {
+                "title": "Aletsch-See",
+                "difficulty": "K3-4",
+                "up": "",
+                "down": "",
+                "duration": "",
+                "distance": "",
+                "url": "http://www.myswitzerland.com/de-ch/klettersteige/aletsch-beim-groessten-alpengletscher-mit-tyrollienne.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.000547, 46.371432]
+            },
+            "properties": {
+                "title": "Aletsch-See",
+                "difficulty": "K3-4",
+                "up": "",
+                "down": "",
+                "duration": "",
+                "distance": "",
+                "url": "http://www.myswitzerland.com/de-ch/klettersteige/aletsch-beim-groessten-alpengletscher-mit-tyrollienne.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.745275, 46.021529]
+            },
+            "properties": {
+                "title": "Mammut A",
+                "difficulty": "",
+                "up": "350m",
+                "down": "350m",
+                "duration": "1h 15min",
+                "distance": "2.7km",
+                "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-A",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.744739, 46.020995]
+            },
+            "properties": {
+                "title": "Mammut B",
+                "difficulty": "",
+                "up": "460m",
+                "down": "460m",
+                "duration": "2h 15min",
+                "distance": "3.3km",
+                "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-B",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.745670, 46.025251]
+            },
+            "properties": {
+                "title": "Mammut C",
+                "difficulty": "",
+                "up": "790m",
+                "down": "790m",
+                "duration": "3h 30min",
+                "distance": "5.5km",
+                "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-C",
                 "icon": "marker"
             }
         }
