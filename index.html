@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
     <head>
+        <title>Klettersteige Schweiz</title>
+
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
         <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
@@ -18,7 +20,13 @@
             }
             #table {
             }
-            #map { min-height: 500px; width: 100%; }
+            #map {
+                min-height: 500px;
+                width: 100%;
+            }
+            footer {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -28,6 +36,10 @@
             <div id="table"></div>
             <div id="map"></div>
         </div>
+
+        <footer>
+            <p>Kontakt: <a href="mailto:klettersteige@brgn.ch">klettersteige@brgn.ch</a></p>
+        </footer>
 
         <script>
             const map = L.map('map').setView([46.76733810404278, 8.496828420038582], 8);
