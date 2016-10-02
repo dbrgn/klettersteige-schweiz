@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
     <head>
-        <script src='https://api.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
-        <link href='https://api.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
         <style type="text/css">
             #map { height: 600px; width: 100%; }
@@ -13,68 +13,40 @@
 
         <div id='map'></div>
         <script>
-            mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuaWxvIiwiYSI6IkM2cVZZdkkifQ.KK_4WqiWBL_DhpjIfGPcLw';
-            const switzerland = new mapboxgl.LngLatBounds(
-                [4.192922617496919, 45.59387757448522],
-                [12.800734222580246, 47.94079863360034]
-            );
-            const map = new mapboxgl.Map({
-                container: 'map',
-                style: 'mapbox://styles/danilo/citrnqoyx000h2jmg5qenf8ep',
-                maxBounds: switzerland,
-            });
+            const map = L.map('map').setView([46.76733810404278, 8.496828420038582], 8);
 
-            map.on('load', () => {
+            // Add tiles
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
+                id: 'danilo/citrnqoyx000h2jmg5qenf8ep',
+                accessToken: 'pk.eyJ1IjoiZGFuaWxvIiwiYSI6IkM2cVZZdkkifQ.KK_4WqiWBL_DhpjIfGPcLw',
+            }).addTo(map);
 
-                map.addSource('klettersteige', {
-                    'type': 'geojson',
-                    'data': 'klettersteige.geojson',
-                });
+            // Function to create description from GeoJSON feature
+            function getDescription(feature) {
+                const p = feature.properties;
+                let description = '<h3>' + p.title + '</h3>';
+                description += '<p>' + p.description + '</p><br>';
+                description += '<strong>Schwierigkeit</strong><p>' + p.difficulty + '</p>';
+                return description;
+            };
 
-                map.addLayer({
-                    'id': 'klettersteige',
-                    'type': 'symbol',
-                    'source': 'klettersteige',
-                    'layout': {
-                        'icon-image': '{icon}-15',
-                        'text-field': '{title}',
-                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-                        'text-offset': [0, 0.6],
-                        'text-anchor': 'top'
-                    }
-                });
-
-                map.on('click', function (e) {
-                    const features = map.queryRenderedFeatures(e.point, {
-                        layers: ['klettersteige']
-                    });
-                    if (!features.length) {
-                        return;
-                    }
-
-                    const feature = features[0];
-                    const p = feature.properties;
-
-                    let description = '<h3>' + p.title + '</h3>';
-                    description += '<p>' + p.description + '</p><br>';
-                    description += '<strong>Schwierigkeit</strong><p>' + p.difficulty + '</p>';
-
-                    // Populate the popup and set its coordinates
-                    // based on the feature found.
-                    const popup = new mapboxgl.Popup()
-                        .setLngLat(feature.geometry.coordinates)
-                        .setHTML(description)
-                        .addTo(map);
-                });
-
-                map.on('mousemove', function (e) {
-                    const features = map.queryRenderedFeatures(e.point, {
-                        layers: ['klettersteige']
-                    });
-                    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-                });
-
-            });
+            // Add POIs
+            const request = new XMLHttpRequest();
+            request.open('GET', 'klettersteige.geojson', true);
+            request.onload = function() {
+                if (this.status == 200) {
+                    const data = JSON.parse(this.response);
+                    L.geoJSON(data, {
+                        onEachFeature: (feature, layer) => {
+                            layer.bindPopup(getDescription(feature));
+                        }
+                    }).addTo(map);
+                } else {
+                    console.error('HTTP ' + this.status + ' when fetching GeoJSON layer');
+                }
+            };
+            request.onerror = () => console.log('Could not load GeoJSON layer');
+            request.send()
         </script>
 
     </body>
