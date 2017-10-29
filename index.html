@@ -52,6 +52,10 @@
             footer {
                 text-align: center;
             }
+            .leaflet-popup-content p {
+                margin-top: 0px;
+                margin-bottom: 8px;
+            }
         </style>
     </head>
     <body>
@@ -82,9 +86,11 @@
             function getDescription(feature) {
                 const p = feature.properties;
                 let description = '<h3>' + p.title + '</h3>';
-                description += '<a href="' + p.url + '">Link</a>';
-                description += '<p>' + p.description + '</p><br>';
+                description += '<p><a href="' + p.url + '">Link</a></p>';
                 description += '<strong>Schwierigkeit</strong><p>' + p.difficulty + '</p>';
+                description += '<strong>Dauer</strong><p>' + (p.duration || '?') + '</p>';
+                description += '<strong>Distanz</strong><p>' + (p.distance || '?') + '</p>';
+                description += '<strong>H&ouml;henmeter</strong><p>Auf: ' + (p.up || '?') + '<br>Ab: ' + (p.down || '?') + '</p>';
                 return description;
             };
 
