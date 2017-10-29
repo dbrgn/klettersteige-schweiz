@@ -667,6 +667,23 @@
                 "url": "http://www.urnerboden.ch/sites/klettersteig_d.php",
                 "icon": "marker"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.706768, 46.900233]
+            },
+            "properties": {
+                "title": "Fruttstägä",
+                "difficulty": "K4",
+                "up": "150m",
+                "down": "",
+                "duration": "1h (1h bis zum Einstieg)",
+                "distance": "",
+                "url": "https://www.biel-bewegt.ch/projekte/klettersteig-fruttst%C3%A4g%C3%A4/",
+                "icon": "marker"
+            }
         }
     ]
 }
