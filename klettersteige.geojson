@@ -11,6 +11,7 @@
                 "title": "Braunwald",
                 "description": "",
                 "difficulty": "K3 / K3 / K5",
+                "duration": "",
                 "url": "http://www.braunwald.ch/de/erlebnisse/sommer/sport/klettergarten/klettersteige",
                 "icon": "marker"
             }
@@ -24,6 +25,7 @@
             "properties": {
                 "title": "Allmenalp",
                 "difficulty": "K4-5",
+                "duration": "",
                 "url": "http://www.myswitzerland.com/de-ch/home/erlebnisse/abenteuer-und-sport-sommer/klettersteige-in-der-schweiz/klettersteig-kandersteg-allmenalp.html",
                 "icon": "marker"
             }
@@ -630,6 +632,23 @@
                 "duration": "2h",
                 "distance": "",
                 "url": "http://www.neuchateltourisme.ch/de/aktiv/fun-co/via-ferrata-tichodrome-noiraigue.1098.html",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.441528, 46.726228]
+            },
+            "properties": {
+                "title": "Gantrisch",
+                "difficulty": "K4+",
+                "up": "630m",
+                "down": "630m",
+                "duration": ">4h",
+                "distance": "7.5km",
+                "url": "https://www.gantrisch.ch/sport/klettern/?offer=4952",
                 "icon": "marker"
             }
         }
