@@ -9,7 +9,6 @@
             },
             "properties": {
                 "title": "Braunwald",
-                "description": "",
                 "difficulty": "K3 / K3 / K5",
                 "duration": "",
                 "url": "http://www.braunwald.ch/de/erlebnisse/sommer/sport/klettergarten/klettersteige",
@@ -649,6 +648,23 @@
                 "duration": ">4h",
                 "distance": "7.5km",
                 "url": "https://www.gantrisch.ch/sport/klettern/?offer=4952",
+                "icon": "marker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.901053, 46.889614]
+            },
+            "properties": {
+                "title": "Zingelstöckli",
+                "difficulty": "K4-5",
+                "up": "350m",
+                "down": "350m",
+                "duration": "2-3h",
+                "distance": "3km",
+                "url": "http://www.urnerboden.ch/sites/klettersteig_d.php",
                 "icon": "marker"
             }
         }
