@@ -701,6 +701,23 @@
                 "url": "https://www.bergsteigen.com/touren/klettersteig/speer-kletterweg/",
                 "icon": "marker"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.06665, 47.06708]
+            },
+            "properties": {
+                "title": "Indianersteig",
+                "difficulty": "K3-4",
+                "up": "100m",
+                "down": "",
+                "duration": "2-3h",
+                "distance": "",
+                "url": "https://klettersteig.de/klettersteig/indianersteig/2098",
+                "icon": "marker"
+            }
         }
     ]
 }
