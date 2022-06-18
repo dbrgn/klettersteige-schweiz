@@ -718,6 +718,23 @@
                 "url": "https://klettersteig.de/klettersteig/indianersteig/2098",
                 "icon": "marker"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.18734, 46.18222]
+            },
+            "properties": {
+                "title": "Via Farinetta",
+                "difficulty": "K3-5",
+                "up": "300m",
+                "down": "",
+                "duration": "2-4h",
+                "distance": "",
+                "url": "https://www.bergsteigen.com/touren/klettersteig/via-farinetta/",
+                "icon": "marker"
+            }
         }
     ]
 }
