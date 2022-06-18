@@ -684,6 +684,23 @@
                 "url": "https://www.biel-bewegt.ch/projekte/klettersteig-fruttst%C3%A4g%C3%A4/",
                 "icon": "marker"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.12174, 47.18780]
+            },
+            "properties": {
+                "title": "Speer Kletterweg",
+                "difficulty": "K1-2",
+                "up": "220m",
+                "down": "",
+                "duration": "2-3h Aufstieg ab Parkplatz Mittlerwengi, 1.5-2h Abstieg",
+                "distance": "",
+                "url": "https://www.bergsteigen.com/touren/klettersteig/speer-kletterweg/",
+                "icon": "marker"
+            }
         }
     ]
 }
