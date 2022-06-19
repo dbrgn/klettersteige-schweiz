@@ -86,7 +86,12 @@
             function getDescription(feature) {
                 const p = feature.properties;
                 let description = '<h3>' + p.title + '</h3>';
-                description += '<p><a href="' + p.url + '">Link</a></p>';
+                description += '<p>';
+                description += `<a href="${p.urls[0]}">Link</a>`;
+                for (let i = 2; i < p.urls.length + 1; i++) {
+                    description += ` <a href="${p.urls[i - 1]}">Link${i}</a>`;
+                }
+                description += '</p>';
                 description += '<strong>Schwierigkeit</strong><p>' + p.difficulty + '</p>';
                 description += '<strong>Dauer</strong><p>' + (p.duration || '?') + '</p>';
                 description += '<strong>Distanz</strong><p>' + (p.distance || '?') + '</p>';
@@ -111,7 +116,7 @@
                     const tr = table.insertRow();
                     const name = tr.insertCell();
                         const link = document.createElement('a');
-                        link.href = p.url;
+                        link.href = p.urls[0];
                         link.appendChild(document.createTextNode(p.title));
                         name.appendChild(link);
                     const difficulty = tr.insertCell();

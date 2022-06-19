@@ -17,7 +17,9 @@
         "down": "",
         "duration": "",
         "distance": "",
-        "url": "http://www.myswitzerland.com/de-ch/klettersteige/aletsch-beim-groessten-alpengletscher-mit-tyrollienne.html",
+        "urls": [
+          "http://www.myswitzerland.com/de-ch/klettersteige/aletsch-beim-groessten-alpengletscher-mit-tyrollienne.html"
+        ],
         "icon": "marker"
       }
     },
@@ -37,7 +39,9 @@
         "down": "",
         "duration": "",
         "distance": "",
-        "url": "http://www.myswitzerland.com/de-ch/klettersteige/aletsch-beim-groessten-alpengletscher-mit-tyrollienne.html",
+        "urls": [
+          "http://www.myswitzerland.com/de-ch/klettersteige/aletsch-beim-groessten-alpengletscher-mit-tyrollienne.html"
+        ],
         "icon": "marker"
       }
     },
@@ -54,7 +58,9 @@
         "title": "Allmenalp",
         "difficulty": "K4-5",
         "duration": "",
-        "url": "http://www.myswitzerland.com/de-ch/home/erlebnisse/abenteuer-und-sport-sommer/klettersteige-in-der-schweiz/klettersteig-kandersteg-allmenalp.html",
+        "urls": [
+          "http://www.myswitzerland.com/de-ch/home/erlebnisse/abenteuer-und-sport-sommer/klettersteige-in-der-schweiz/klettersteig-kandersteg-allmenalp.html"
+        ],
         "icon": "marker"
       }
     },
@@ -74,7 +80,9 @@
         "down": "1300m",
         "duration": "",
         "distance": "7-8h",
-        "url": "http://www.klettersteig.ch/baltschiedertal.html",
+        "urls": [
+          "http://www.klettersteig.ch/baltschiedertal.html"
+        ],
         "icon": "marker"
       }
     },
@@ -91,7 +99,9 @@
         "title": "Braunwald",
         "difficulty": "K3 / K3 / K5",
         "duration": "",
-        "url": "http://www.braunwald.ch/de/erlebnisse/sommer/sport/klettergarten/klettersteige",
+        "urls": [
+          "http://www.braunwald.ch/de/erlebnisse/sommer/sport/klettergarten/klettersteige"
+        ],
         "icon": "marker"
       }
     },
@@ -111,7 +121,9 @@
         "down": "",
         "duration": "1h 20min",
         "distance": "",
-        "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/brunnistoeckli/",
+        "urls": [
+          "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/brunnistoeckli/"
+        ],
         "icon": "marker"
       }
     },
@@ -130,7 +142,9 @@
         "up": "560m (300m)",
         "down": "",
         "duration": "3h (20min bis zum Einstieg)",
-        "url": "http://www.engstligenalp.ch/de/klettersteig",
+        "urls": [
+          "http://www.engstligenalp.ch/de/klettersteig"
+        ],
         "icon": "marker"
       }
     },
@@ -150,7 +164,9 @@
         "down": "66m",
         "duration": "2h 40min",
         "distance": "400m",
-        "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+        "urls": [
+          "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html"
+        ],
         "icon": "marker"
       }
     },
@@ -169,7 +185,9 @@
         "up": "300m",
         "down": "300m",
         "duration": "2-3h",
-        "url": "http://www.engstligenalp.ch/de/klettersteig",
+        "urls": [
+          "http://www.engstligenalp.ch/de/klettersteig"
+        ],
         "icon": "marker"
       }
     },
@@ -189,7 +207,9 @@
         "down": "",
         "duration": "1h (1h bis zum Einstieg)",
         "distance": "",
-        "url": "https://www.biel-bewegt.ch/projekte/klettersteig-fruttst%C3%A4g%C3%A4/",
+        "urls": [
+          "https://www.biel-bewegt.ch/projekte/klettersteig-fruttst%C3%A4g%C3%A4/"
+        ],
         "icon": "marker"
       }
     },
@@ -208,7 +228,9 @@
         "up": "750m",
         "down": "750m",
         "duration": "4h",
-        "url": "http://www.myswitzerland.com/de-ch/n13042/n13043/n13044/fuerenwand-die-meisterpruefung-gegenueber-dem-titlis.html",
+        "urls": [
+          "http://www.myswitzerland.com/de-ch/n13042/n13043/n13044/fuerenwand-die-meisterpruefung-gegenueber-dem-titlis.html"
+        ],
         "icon": "marker"
       }
     },
@@ -227,7 +249,9 @@
         "up": "250m",
         "down": "250m",
         "duration": "2.5h",
-        "url": "http://www.simplon.ch/de/sommer/klettern/klettersteig",
+        "urls": [
+          "http://www.simplon.ch/de/sommer/klettern/klettersteig"
+        ],
         "icon": "marker"
       }
     },
@@ -247,7 +271,9 @@
         "down": "630m",
         "duration": ">4h",
         "distance": "7.5km",
-        "url": "https://www.gantrisch.ch/sport/klettern/?offer=4952",
+        "urls": [
+          "https://www.gantrisch.ch/sport/klettern/?offer=4952"
+        ],
         "icon": "marker"
       }
     },
@@ -266,7 +292,9 @@
         "up": "1000m",
         "down": "700m",
         "duration": "8h",
-        "url": "http://gemmi.ch/highlights/highlights-sommer/klettersteig-daubenhorn/",
+        "urls": [
+          "http://gemmi.ch/highlights/highlights-sommer/klettersteig-daubenhorn/"
+        ],
         "icon": "marker"
       }
     },
@@ -285,7 +313,9 @@
         "up": "350m",
         "down": "800mm",
         "duration": "5h",
-        "url": "http://gemmi.ch/highlights/highlights-sommer/klettersteig-daubenhorn/",
+        "urls": [
+          "http://gemmi.ch/highlights/highlights-sommer/klettersteig-daubenhorn/"
+        ],
         "icon": "marker"
       }
     },
@@ -304,7 +334,9 @@
         "up": "35m",
         "down": "35m",
         "duration": "1.5h",
-        "url": "http://www.gemmi.ch/sommer/klettersteig-gemmiwand/",
+        "urls": [
+          "http://www.gemmi.ch/sommer/klettersteig-gemmiwand/"
+        ],
         "icon": "marker"
       }
     },
@@ -324,7 +356,9 @@
         "down": "",
         "duration": "2-3h",
         "distance": "",
-        "url": "https://klettersteig.de/klettersteig/indianersteig/2098",
+        "urls": [
+          "https://klettersteig.de/klettersteig/indianersteig/2098"
+        ],
         "icon": "marker"
       }
     },
@@ -344,7 +378,9 @@
         "down": "800m",
         "duration": "7-8h",
         "distance": "",
-        "url": "http://www.klettersteig.ch/jaegihorm.html",
+        "urls": [
+          "http://www.klettersteig.ch/jaegihorm.html"
+        ],
         "icon": "marker"
       }
     },
@@ -364,7 +400,9 @@
         "down": "",
         "duration": "",
         "distance": "",
-        "url": "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/",
+        "urls": [
+          "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/"
+        ],
         "icon": "marker"
       }
     },
@@ -384,7 +422,9 @@
         "down": "240m",
         "duration": "3h",
         "distance": "0.8km",
-        "url": "http://www.myswitzerland.com/de-ch/tete-aux-chamois-adrenalin-pur.html",
+        "urls": [
+          "http://www.myswitzerland.com/de-ch/tete-aux-chamois-adrenalin-pur.html"
+        ],
         "icon": "marker"
       }
     },
@@ -404,7 +444,9 @@
         "down": "190m",
         "duration": "2h",
         "distance": "1.3km",
-        "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+        "urls": [
+          "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html"
+        ],
         "icon": "marker"
       }
     },
@@ -424,7 +466,9 @@
         "down": "190m",
         "duration": "2h",
         "distance": "1.3km",
-        "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+        "urls": [
+          "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html"
+        ],
         "icon": "marker"
       }
     },
@@ -444,7 +488,9 @@
         "down": "190m",
         "duration": "2h 15min",
         "distance": "1.3km",
-        "url": "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html",
+        "urls": [
+          "http://www.gstaad.ch/aktiv/sommer/bergsteigen-klettern/klettersteige.html"
+        ],
         "icon": "marker"
       }
     },
@@ -464,7 +510,11 @@
         "down": "140m",
         "duration": "1h 30m",
         "distance": "340m",
-        "url": "https://www.verbier.ch/sommer/angebote/via-ferrata-des-gentianes-androsace-rouge-verbier-de-sommer-2840836/",
+        "urls": [
+          "https://www.verbier.ch/sommer/angebote/via-ferrata-des-gentianes-androsace-rouge-verbier-de-sommer-2840836/",
+          "https://www.bergsteigen.com/touren/klettersteig/via-ferrata-les-gentianes-androsace/",
+          "https://static.apidae-tourisme.com/filestore/objets-touristiques/documents/188/106/7826108.pdf"
+        ],
         "icon": "marker"
       }
     },
@@ -484,7 +534,11 @@
         "down": "100m",
         "duration": "1h",
         "distance": "150m",
-        "url": "https://www.verbier.ch/sommer/angebote/via-ferrata-des-gentianes-edelweiss-bleu-verbier-de-sommer-2840834/",
+        "urls": [
+          "https://www.verbier.ch/sommer/angebote/via-ferrata-des-gentianes-edelweiss-bleu-verbier-de-sommer-2840834/",
+          "https://www.bergsteigen.com/touren/klettersteig/via-ferrata-les-gentianes-edelweiss/",
+          "https://static.apidae-tourisme.com/filestore/objets-touristiques/documents/188/106/7826108.pdf"
+        ],
         "icon": "marker"
       }
     },
@@ -504,7 +558,9 @@
         "down": "350m",
         "duration": "1h 15min",
         "distance": "2.7km",
-        "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-A",
+        "urls": [
+          "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-A"
+        ],
         "icon": "marker"
       }
     },
@@ -524,7 +580,9 @@
         "down": "460m",
         "duration": "2h 15min",
         "distance": "3.3km",
-        "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-B",
+        "urls": [
+          "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-B"
+        ],
         "icon": "marker"
       }
     },
@@ -544,7 +602,9 @@
         "down": "790m",
         "duration": "3h 30min",
         "distance": "5.5km",
-        "url": "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-C",
+        "urls": [
+          "http://www.zermatt.ch/bergsteigen/Mammut-Klettersteig/Mammut-Klettersteig-Route-C"
+        ],
         "icon": "marker"
       }
     },
@@ -564,7 +624,9 @@
         "down": "570m",
         "duration": "5-6h",
         "distance": "",
-        "url": "http://www.klettersteig.ch/mittaghorn.html",
+        "urls": [
+          "http://www.klettersteig.ch/mittaghorn.html"
+        ],
         "icon": "marker"
       }
     },
@@ -584,7 +646,9 @@
         "down": "300m",
         "duration": "3h",
         "distance": "2.2km",
-        "url": "http://www.klettersteig-muerren.ch/index.php/de/",
+        "urls": [
+          "http://www.klettersteig-muerren.ch/index.php/de/"
+        ],
         "icon": "marker"
       }
     },
@@ -604,7 +668,9 @@
         "down": "518m",
         "duration": "3.5h",
         "distance": "5km",
-        "url": "https://www.pinut.ch/",
+        "urls": [
+          "https://www.pinut.ch/"
+        ],
         "icon": "marker"
       }
     },
@@ -624,7 +690,9 @@
         "down": "",
         "duration": "",
         "distance": "",
-        "url": "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/",
+        "urls": [
+          "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/"
+        ],
         "icon": "marker"
       }
     },
@@ -644,7 +712,9 @@
         "down": "",
         "duration": "",
         "distance": "",
-        "url": "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/",
+        "urls": [
+          "http://www.engadin.stmoritz.ch/sommer/de/aktivitaeten/bergerlebnis/bergbahnen/muottas-muragl-bergerlebnisse/klettersteig-la-resgia/"
+        ],
         "icon": "marker"
       }
     },
@@ -664,7 +734,9 @@
         "down": "730m",
         "duration": "4-5h",
         "distance": "",
-        "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/rigidalstock/",
+        "urls": [
+          "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/rigidalstock/"
+        ],
         "icon": "marker"
       }
     },
@@ -684,7 +756,9 @@
         "down": "730m",
         "duration": "4-5h",
         "distance": "",
-        "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/rigidalstock/",
+        "urls": [
+          "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/rigidalstock/"
+        ],
         "icon": "marker"
       }
     },
@@ -704,7 +778,9 @@
         "down": "150m",
         "duration": "1h",
         "distance": "",
-        "url": "http://www.klettersteig.ch/miniklettersteig.html",
+        "urls": [
+          "http://www.klettersteig.ch/miniklettersteig.html"
+        ],
         "icon": "marker"
       }
     },
@@ -724,7 +800,9 @@
         "down": "878m",
         "duration": "5h",
         "distance": "4.1km",
-        "url": "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-senda-ferrada-piz-mitgel/17573578/",
+        "urls": [
+          "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-senda-ferrada-piz-mitgel/17573578/"
+        ],
         "icon": "marker"
       }
     },
@@ -744,7 +822,9 @@
         "down": "",
         "duration": "2-3h Aufstieg ab Parkplatz Mittlerwengi, 1.5-2h Abstieg",
         "distance": "",
-        "url": "https://www.bergsteigen.com/touren/klettersteig/speer-kletterweg/",
+        "urls": [
+          "https://www.bergsteigen.com/touren/klettersteig/speer-kletterweg/"
+        ],
         "icon": "marker"
       }
     },
@@ -764,7 +844,9 @@
         "down": "1627m",
         "duration": "5.5h",
         "distance": "10.9km",
-        "url": "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-sulzfluh-raetikon-2790-m/9408873/",
+        "urls": [
+          "https://maps.graubuenden.ch/de/tour/klettersteig/klettersteig-sulzfluh-raetikon-2790-m/9408873/"
+        ],
         "icon": "marker"
       }
     },
@@ -784,7 +866,9 @@
         "down": "150m",
         "duration": "2h",
         "distance": "",
-        "url": "http://www.neuchateltourisme.ch/de/aktiv/fun-co/via-ferrata-tichodrome-noiraigue.1098.html",
+        "urls": [
+          "http://www.neuchateltourisme.ch/de/aktiv/fun-co/via-ferrata-tichodrome-noiraigue.1098.html"
+        ],
         "icon": "marker"
       }
     },
@@ -804,7 +888,9 @@
         "down": "700m",
         "duration": "4h",
         "distance": "4.2km",
-        "url": "http://www.grimselwelt.ch/ausflugstipps/klettersteig-tierbergli",
+        "urls": [
+          "http://www.grimselwelt.ch/ausflugstipps/klettersteig-tierbergli"
+        ],
         "icon": "marker"
       }
     },
@@ -824,7 +910,9 @@
         "down": "1400m",
         "duration": "5-7h",
         "distance": "",
-        "url": "http://www.grimselwelt.ch/ausflugstipps/klettersteig-taelli",
+        "urls": [
+          "http://www.grimselwelt.ch/ausflugstipps/klettersteig-taelli"
+        ],
         "icon": "marker"
       }
     },
@@ -844,7 +932,9 @@
         "down": "",
         "duration": "2-4h",
         "distance": "",
-        "url": "https://www.bergsteigen.com/touren/klettersteig/via-farinetta/",
+        "urls": [
+          "https://www.bergsteigen.com/touren/klettersteig/via-farinetta/"
+        ],
         "icon": "marker"
       }
     },
@@ -864,7 +954,9 @@
         "down": "",
         "duration": "2 Tage",
         "distance": "",
-        "url": "http://www.klettersteig.ch/viaferrata.html",
+        "urls": [
+          "http://www.klettersteig.ch/viaferrata.html"
+        ],
         "icon": "marker"
       }
     },
@@ -884,7 +976,9 @@
         "down": "350m",
         "duration": "2-3h",
         "distance": "3km",
-        "url": "http://www.urnerboden.ch/sites/klettersteig_d.php",
+        "urls": [
+          "http://www.urnerboden.ch/sites/klettersteig_d.php"
+        ],
         "icon": "marker"
       }
     },
@@ -904,7 +998,9 @@
         "down": "",
         "duration": "1h",
         "distance": "",
-        "url": "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/zittergrat/",
+        "urls": [
+          "http://www.brunni.ch/erlebnis/erlebnis-sommer/klettersteige/zittergrat/"
+        ],
         "icon": "marker"
       }
     }
