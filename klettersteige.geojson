@@ -453,6 +453,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.29574,
+          46.08677
+        ]
+      },
+      "properties": {
+        "title": "Les Gentianes: Androsace",
+        "difficulty": "K5",
+        "up": "140m",
+        "down": "140m",
+        "duration": "1h 30m",
+        "distance": "340m",
+        "url": "https://www.verbier.ch/sommer/angebote/via-ferrata-des-gentianes-androsace-rouge-verbier-de-sommer-2840836/",
+        "icon": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.29641,
+          46.08682
+        ]
+      },
+      "properties": {
+        "title": "Les Gentianes: Edelweiss",
+        "difficulty": "K3",
+        "up": "100m",
+        "down": "100m",
+        "duration": "1h",
+        "distance": "150m",
+        "url": "https://www.verbier.ch/sommer/angebote/via-ferrata-des-gentianes-edelweiss-bleu-verbier-de-sommer-2840834/",
+        "icon": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.745275,
           46.021529
         ]
