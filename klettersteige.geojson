@@ -110,6 +110,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.93331,
+          46.05896,
+        ]
+      },
+      "properties": {
+        "title": "Britannia",
+        "difficulty": "K1-K4",
+        "duration": "3h",
+        "urls": [
+          "https://britannia.ch/via-ferrata/"
+        ],
+        "icon": "marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.413068,
           46.841861
         ]
